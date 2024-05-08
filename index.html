@@ -18,29 +18,23 @@
     <body>
 
     <div class="d-flex flex-column w-100 h-100 p-5">
-        <div class="animation-div d-flex flex-column justify-content-end align-items-start py-2 px-2 rounded-3" style=" width: 30vw;">
-            <div class="d-flex justify-content-end align-items-end w-100 pb-2">
-                <span class="material-symbols-outlined text-white-50" id="closeAnimationTab">
-                    close
-                </span>
+        <div class="animation-div d-flex flex-column justify-content-end align-items-start rounded-3" style=" width: 30vw;">
+            <div class="d-flex justify-content-between align-items-end w-100 p-2 py-1 bg-light" style="border-top-left-radius: 5px; border-top-right-radius: 5px;">
+                <h5 class="m-0 ps-2 text-dark">Animations</h5>
+                <div class="d-flex justify-content-center align-items-center">
+                    <span class="material-symbols-outlined text-danger p-0" id="closeAnimationTab">
+                        close
+                    </span>
+                </div>
             </div>
-            <input type="text" id="searchInput" class="w-100 form-control" placeholder="Search animation by key word" onkeyup="return takeInput(event)">
-            <div class="results rounded-3 w-100 mt-2 px-3 py-2" style="min-height: 40vh; max-height: 40vh;overflow-y: scroll;">
-                
+            <div class="p-2 w-100">
+                <input type="text" id="searchInput" class="w-100 form-control" placeholder="Search animation by key word" onkeyup="return takeInput(event)">
+                <div class="results rounded-3 w-100 mt-2 px-3 py-2" style="min-height: 40vh; max-height: 40vh;overflow-y: scroll;">
+                    
+                </div>
             </div>
         </div>
     </div>
-    
-    <!-- <div class="hud">
-        <div class="col1">
-        </div>
-        <div class="col2">
-
-        </div>
-        <div class="col3">
-
-        </div>
-    </div> -->
 
     <script src="script.js"></script>
 </body>

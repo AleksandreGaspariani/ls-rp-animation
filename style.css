@@ -72,26 +72,36 @@
 }
 
 .animation-div {
-    box-shadow: -1px 0px 8px 0px rgba(225,36,230,0.63);
-    -webkit-box-shadow: -1px 0px 8px 0px rgba(225,36,230,0.63);
-    -moz-box-shadow: -1px 0px 8px 0px rgba(225,36,230,0.63);
+    box-shadow: -1px 0px 8px 0px rgb(255, 168, 27);
+    -webkit-box-shadow: -1px 0px 8px 0px rgb(255, 168, 27);
+    -moz-box-shadow: -1px 0px 8px 0px rgb(255, 168, 27);
     background-color: rgba(0, 0, 0, 0.63);
 }
 
 #searchInput {
-    background-color: #55555581;
-    color: white;
+    background-color: #787878cc;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #ffffffcf;
+    color: rgb(50, 50, 50);
+    outline: none;
+    border: none;
 }
 
 #searchInput::placeholder {
-    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(50, 50, 50);
 }
 
 .results {
-    background-color: #555555cc;
+    box-shadow: 1px 0px 17px 4px rgba(0,0,0,0.75) inset;
+    -webkit-box-shadow: 1px 0px 17px 4px rgba(0,0,0,0.75) inset;
+    -moz-box-shadow: 1px 0px 17px 4px rgba(0,0,0,0.75) inset;
+    background-color: #787878cc;
 }
 
 .results p{
-    color: rgb(255, 132, 132);
-    text-decoration: underline;
+    color: #FFFFFF;
+    text-shadow: 3px 5px 2px #474747;
+    font-weight: 700;
+    letter-spacing: 3px;
 }
